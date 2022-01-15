@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Rajhotel</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="green black-text">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">RajHotel</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+
+<!-- Start about US -->
+<section>
+    <h1 class="center-align"> About US</h1>
+    <div class="row">
+        <div class="col s4 m4 offset-l4">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col m6 s12">
+            <img src="images/a1.jpeg" class="reponsive-img">
+        </div>
+
+        <div class="col m6 s12">
+            <h4>About Our Hotel</h4>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum sequi culpa, ipsa repudiandae quia, corporis modi quidem eos
+                 nemo temporibus animi. Mollitia similique iusto molestias praesentium facere, ducimus reiciendis
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, officia dolores. Dolore quis nihil ut repudiandae cupiditate necessitatibus. Vero inventore 
+                 aut nisi? Aliquam reprehenderit, repellat qui minima temporibus animi exercitationem!.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum deleniti veritatis fuga impedit. Repudiandae ex modi perspiciatis soluta similique? Itaque, 
+                nihil. Nemo, molestias at? Sint at quis expedita? Odio.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum deleniti veritatis fuga impedit. Repudiandae ex modi perspiciatis soluta similique? Itaque, 
+                nihil. Nemo, molestias at? Sint at quis expedita? Odio.lorem
+            </h6>
+            <a href="about.html"><button class="btn waves-effect waves-light" type="submit" name="action">More About
+                <i class="material-icons right">send</i>
+              </button>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer  -->
+<footer class="page-footer green">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">More Content</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+      © copyright 2022-2024: Develeped By Rajkumar Oli
+
+      </div>
+    </div>
+  </footer>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            $('.fixed-action-btn').floatingActionButton();
+            $('.materialboxed').materialbox();
+            $('#textarea1').val('');
+            M.textareaAutoResize($('#textarea1'));
+        });
+    </script>
+</body>
+
+</html>
